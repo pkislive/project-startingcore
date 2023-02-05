@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Nav Bar Starts | Made by:- Peeyush Agarwal */
+
+:root {
+    --text-clr: #213053;
+    --text-clr2: #1D263A;
+    --but-bg: #1787FC;
+    --dot-clr: #F18B62;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+section.main-section {
+    height: 100vh;
+    width: 100vw;
+}
+
+section nav {
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 132px;
+}
+
+section.main-section nav .logo {
+    color: var(--text-clr);
+    font-weight: 900;
+    font-size: 24px;
+}
+
+section.main-section nav .logo #dot{
+    font-size: 30px;
+    color: var(--dot-clr);
+}
+
+section.main-section ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    letter-spacing: 0.5px;
+}
+
+section.main-section ul li a {
+    text-decoration: none;
+    color: var(--text-clr);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+section.main-section ul li a.button-gw {
+    background-color: var(--but-bg);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 65px;
+}
+
+.toggle {
+    display: none;
+}
+
+/* ------- Nav Bar Ends ------- */
+
+
+
+
+
+
+
+section.main-section div.details{
+    position: absolute;
+    width: 564px;
+    height: 66px;
+    left: 520px;
+    top: 181px;
+    
+    /* Bold/60px */
+    
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 66px;
+    /* identical to box height, or 110% */
+    
+    text-align: center;
+    letter-spacing: -1px;
+    
+    /* Text Color */
+    
+    color: #1D263A;
+}
+
+div.date p {
+ 
+    position: absolute;
+    width: 739px;
+    height: 64px;
+    left: 432px;
+    top: 266px;
+    
+    /* Regular/21px */
+    
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    /* or 152% */
+    
+    text-align: center;
+    
+    /* Text Color */
+    
+    color: #1D263A;
+    
+    opacity: 0.7;
+} 
+
+div.image{
+    position: absolute;
+width: 525px;
+height: 392px;
+left: 163px;
+top: 410px;
+
+background: url(.jpg);
+}
+
+
+div.image2{position: absolute;
+    width: 653px;
+    height: 508px;
+    left: 788px;
+    top: 410px;
+    
+    background: url(.jpg);}
+
+
+
+div.id{
+    position: absolute;
+width: 149px;
+height: 32px;
+left: 163px;
+top: 852px;
+
+/* Bold/24px */
+
+font-family: 'Mazzard';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.3px;
+
+/* Text Color */
+
+color: #1D263A;
+
+    }
+
+
+
+
+
+
+
+    div.id2{position: absolute;
+        width: 138px;
+        height: 32px;
+        left: 788px;
+        top: 968px;
+        
+        /* Bold/24px */
+        
+        font-family: 'Mazzard';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+        
+        letter-spacing: -0.3px;
+        
+        /* Text Color */
+        
+        color: #1D263A;}  
+
+
+
+
+
+
+
+
+
+
+    div.char{position: absolute;
+        width: 404.23px;
+        height: 60px;
+        left: 163px;
+        top: 902px;
+        
+        /* Regular/17px */
+        
+        font-family: 'Mazzard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+        /* or 176% */
+        
+        
+        /* Text Color */
+        
+        color: #1D263A;
+        
+        opacity: 0.8;}
+
+
+
+
+
+
+
+
+        div.char2{position: absolute;
+            width: 405px;
+            height: 60px;
+            left: 788px;
+            top: 1018px;
+            
+            /* Regular/17px */
+            
+            font-family: 'Mazzard';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 30px;
+            /* or 176% */
+            
+            
+            /* Text Color */
+            
+            color: #1D263A;
+            
+            opacity: 0.8;
+            
+
+        }
+
+
+
+        div.image3{position: absolute;
+            width: 525px;
+            height: 528px;
+            left: 163px;
+            top: 1032px;
+            
+            background: url(.jpg);}
+
+
+            div.id3{
+                position: absolute;
+width: 205px;
+height: 32px;
+left: 163px;
+top: 1610px;
+
+/* Bold/24px */
+
+font-family: 'Mazzard';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.3px;
+
+/* Text Color */
+
+color: #1D263A;
+            }
+
+
+
+            div.char3{position: absolute;
+                width: 404.23px;
+                height: 60px;
+                left: 163px;
+                top: 1660px;
+                
+                /* Regular/17px */
+                
+                font-family: 'Mazzard';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 30px;
+                /* or 176% */
+                
+                
+                /* Text Color */
+                
+                color: #1D263A;
+                
+                opacity: 0.8;}
+
+div.image4{
+    position: absolute;
+width: 653px;
+height: 418px;
+left: 788px;
+top: 1142px;
+
+background: url(.jpg);
+}
+
+div.id4{
+    position: absolute;
+    width: 264px;
+    height: 32px;
+    left: 788px;
+    top: 1610px;
+    
+    /* Bold/24px */
+    
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: -0.3px;
+    
+    /* Text Color */
+    
+    color: #1D263A;
+    }
+
+    div.char4{position: absolute;
+        width: 405px;
+        height: 60px;
+        left: 788px;
+        top: 1660px;
+        
+        /* Regular/17px */
+        
+        font-family: 'Mazzard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+        /* or 176% */
+        
+        
+        /* Text Color */
+        
+        color: #1D263A;
+        
+        opacity: 0.8;}
+
+
+
+        div.fiel{
+            position: absolute;
+            width: 1600px;
+            height: 676px;
+            left: 0px;
+            top: 1840px;
+            
+            /* Color 16 */
+            
+            background: #F9FAFB;}
+
+
+           div.last p{position: absolute;
+            width: 509px;
+            height: 101px;
+            left: 546px;
+            top: 1976px;
+            
+            /* Bold/42px */
+            
+            font-family: 'Mazzard';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 42px;
+            line-height: 50px;
+            /* or 120% */
+            
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: -1px;
+            
+            /* Text Color */
+            
+            color: #1D263A;
+            
+            opacity: 0.9;}
+
+            div.fall{
+                position: absolute;
+            width: 546px; 
+            height: 90px;
+            left: 524px;
+            top: 2113px;
+
+        /* Regular/17px */
+
+         font-family: 'Mazzard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+/* or 176% */
+
+text-align: center;
+
+/* Text Color */
+
+color: #1D263A;
+
+opacity: 0.7;
+            }
+
+
+            div.email{box-sizing: border-box;
+
+                position: absolute;
+                width: 604px;
+                height: 70px;
+                left: 498px;
+                top: 2260px;
+                
+                /* Color 4 */
+                
+                background: #FFFFFF;
+                /* colour 13 */
+                
+                border: 1px solid rgba(223, 223, 223, 0.7);
+                border-radius: 10px;}
+
+
+                div.spam{position: absolute;
+                    width: 248px;
+                    height: 28px;
+                    left: 686px;
+                    top: 2363px;
+                    
+                    /* Regular/15px */
+                    
+                    font-family: 'Mazzard';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+                    /* identical to box height, or 187% */
+                    
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    
+                    /* Text Color */
+                    
+                    color: #1D263A;
+                    
+                   opacity: 0.7;}
+      
+                   
+/* Made By Peeyush Agarwal */
+
+section.container {
+    height: 2650px !important;
+}
+
+div.field {
+    all: unset !important;
+    position: absolute !important;
+    top: 1840px !important;
+    height: 100% !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    flex-direction: column !important;
+    background-color: #F9FAFB !important;
+}
+
+div.field p#sub {
+    font-size: 60px !important;
+    padding-bottom: 36px !important;
+}
+
+div.field p#t {
+    font-size: 17px !important;
+    line-height: 30px !important;
+    padding-bottom: 57px !important;
+}
+
+div.field input {
+    padding: 20px !important;
+    font-size: 17px !important;
+}
+
+div.field .email-sub span {
+    background: #1787FC !important;
+    border-radius: 0px 10px 10px 0px !important;
+    font-size: 17px !important;
+    color: #F5F5F5 !important;
+    padding: 22px !important;
+}
+
+div.field div.lock {
+    padding-top: 33px !important;
+}
+
+div.field div.lock i {
+    padding-right: 15px !important;
+}
+
+/* Footer Starts From Here | Made By:- Peeyush Agarwal */
+
+footer {
+    height: 523px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+    padding-left: 152px;
+}
+
+footer div.right span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #213053;
+    margin-bottom: 35px;
+    align-self: flex-start;
+}
+
+footer div.right span#dot {
+    color: #F18B62;
+}
+
+footer .right p {
+    font-size: 17px;
+    color: var(--text-clr2);
+    opacity: 0.8;
+}
+
+footer .left {
+    display: flex;
+    padding-right: 208px;
+    gap: 65px;
+    font-weight: 900;
+}
+
+footer .left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--text-clr2);
+    font-size: 17px;
+}
+
+footer .left .heading {
+    display: block;
+    margin-bottom: 44px;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+footer .left ul li {
+    padding-bottom: 20px;
+}
+
+/* Responsiveness Done by:- Peeyush Agarwal */
+
+@media (max-width: 960px) {
+    .main-section {
+        height: auto;
+    }
+
+    nav ul {
+        display: none !important;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .toggle i {
+        color: var(--text-clr2);
+        padding-right: 5px;
+        height: 17px;
+    }
+    
+    .menu {
+        height: 17px;
+        width: 30px;
+        font-size: 25px;
+        padding-right: 5px;
+        color: var(--text-clr2);
+    }
+
+    section nav {
+        padding: 0 30px;
+    }
+
+    /* Nav aur Footer ka Responsiveness ho chuka h.. Idar se Main wala krna h Responsiveness */
+
+
+
+    /* Nav aur Footer ka Responsiveness ho chuka h.. Idar se Main wala krna h Responsiveness */
+
+    footer {
+        height: 350px;
+    }
+    
+    footer .right {
+        padding-left: 50px;
+    }
+    
+    footer div.right span {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    footer .right p {
+        font-size: 12px;
+    }
+    
+    footer .left {
+        padding-right: 50px;
+        gap: 35px;
+    }
+    
+    footer .left ul {
+        gap: 1px;
+        font-size: 12px;
+    }
+
+    footer .left ul li {
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    footer {
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    
+    footer .right {
+        padding-left: 35px;
+    }
+    
+    footer .left {
+        padding-left: 35px;
+    }
+}

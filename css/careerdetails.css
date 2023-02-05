@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Nav Bar Starts | Made by:- Peeyush Agarwal */
+
+:root {
+    --text-clr: #213053;
+    --text-clr2: #1D263A;
+    --but-bg: #1787FC;
+    --dot-clr: #F18B62;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+.html {
+    position: relative;
+width: 1600px;
+height: 2667px;
+
+background: #FFFFFF;
+}
+
+section.main-section {
+    height: 100vh;
+    width: 100vw;
+}
+
+section nav {
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 132px;
+}
+
+section.main-section nav .logo {
+    color: var(--text-clr);
+    font-weight: 900;
+    font-size: 24px;
+}
+
+section.main-section nav .logo #dot{
+    font-size: 30px;
+    color: var(--dot-clr);
+}
+
+section.main-section nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    letter-spacing: 0.5px;
+}
+
+section.main-section nav ul li a {
+    text-decoration: none;
+    color: var(--text-clr);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+section.main-section nav ul li a.button-gw {
+    background-color: var(--but-bg);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 65px;
+}
+
+.toggle {
+    display: none;
+}
+
+/* ------- Nav Bar Ends ------- */
+
+section.main-section div.details {
+    height: 334px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F9FAFB;
+}
+
+section.main-section h2 {
+    font-size: 62px;
+}
+
+section.main-section div.details ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-top: 19px;
+}
+
+section.main-section ul i {
+    color: orange;
+    padding-right: 12px;
+}
+
+section.main-section ul li {
+    font-size: 17px;
+}
+
+div.text {
+    width: 731px;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+div.text h2 {
+    color: #1D263A;
+    font-size: 21px;
+    padding-top: 36px;
+    padding-bottom: 20px;
+}
+
+div.text h2.role-ov {
+    padding-top: 100px;
+}
+
+div.text p {
+    padding: 20px 0;
+    color: #1D263A;
+    opacity: 0.8;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+div.text a {
+    color: white;
+    background: #FF794D;
+    border-radius: 10px;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+div.text ul li {
+    padding-top: 20px;
+    font-size: 17px;
+    opacity: 0.8;
+    color: #1D263A;
+}
+
+/* Footer Starts From Here | Made By:- Peeyush Agarwal */
+
+footer {
+    height: 523px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+    padding-left: 152px;
+}
+
+footer div.right span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #213053;
+    margin-bottom: 35px;
+    align-self: flex-start;
+}
+
+footer div.right span#dot {
+    color: #F18B62;
+}
+
+footer .right p {
+    font-size: 17px;
+    color: var(--text-clr2);
+    opacity: 0.8;
+}
+
+footer .left {
+    display: flex;
+    padding-right: 208px;
+    gap: 65px;
+    font-weight: 900;
+}
+
+footer .left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--text-clr2);
+    font-size: 17px;
+}
+
+footer .left .heading {
+    display: block;
+    margin-bottom: 44px;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+footer .left ul li {
+    padding-bottom: 20px;
+}
+
+/* Responsiveness Done by:- Peeyush Agarwal */
+
+@media (max-width: 960px) {
+    .main-section {
+        height: auto;
+    }
+
+    nav ul {
+        display: none !important;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .toggle i {
+        color: var(--text-clr2);
+        padding-right: 5px;
+        height: 17px;
+    }
+    
+    .menu {
+        height: 17px;
+        width: 30px;
+        font-size: 25px;
+        padding-right: 5px;
+        color: var(--text-clr2);
+    }
+
+    section nav {
+        padding: 0 30px;
+    }
+
+    /* Nav aur Footer ka Responsiveness ho chuka h.. Idar se Main wala krna h Responsiveness */
+
+
+
+    /* Nav aur Footer ka Responsiveness ho chuka h.. Idar se Main wala krna h Responsiveness */
+
+    footer {
+        height: 350px;
+    }
+    
+    footer .right {
+        padding-left: 50px;
+    }
+    
+    footer div.right span {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    footer .right p {
+        font-size: 12px;
+    }
+    
+    footer .left {
+        padding-right: 50px;
+        gap: 35px;
+    }
+    
+    footer .left ul {
+        gap: 1px;
+        font-size: 12px;
+    }
+
+    footer .left ul li {
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    footer {
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    
+    footer .right {
+        padding-left: 35px;
+    }
+    
+    footer .left {
+        padding-left: 35px;
+    }
+}

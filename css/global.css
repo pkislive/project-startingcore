@@ -1,0 +1,25 @@
+:root {
+  /* fonts */
+  --regular-171: Mazzard;
+
+  /* font sizes */
+  --regular-13-size: 13px;
+  --bold-15-size: 15px;
+  --regular-171-size: 17px;
+  --regular-21-size: 21px;
+  --bold-241-size: 24px;
+  --bold-60-size: 60px;
+
+  /* Colors */
+  --color-41: #fff;
+  --color-16: #f9fafb;
+  --color-gray-100: #7f828a;
+  --text-color1: #1d263a;
+  --color-21: #1787fc;
+  --color-lightsalmon: #f18b62;
+  --color-darkslategray: #213053;
+
+  /* border radiuses */
+  --br-sm: 15px;
+  --br-md: 50px;
+}
